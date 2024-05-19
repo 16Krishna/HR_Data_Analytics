@@ -40,4 +40,31 @@ optimize performance management processes, and implement effective retention pro
 - Step 2 : Under Home, there is transform data, the data was cleaned such as the blank columns was removed, under BusinessTravel section the spelling was corrected for Travel_Rarely
 - Step 3 : Then apply and close
 - Step 4 : Employee Count KPI
+- Step 5 : AttritionCount KPI: To get this use the following step-
+
+			Under Transform data use conditional formatting for attrition column :
+			Give the column name as "AttritionCount"
+			
+			Then use the new measure :
+			AttritionRate = sum(HR_Analytics[AttritionCount])/sum(HR_Analytics[EmployeeCount])	
+- Step 6 : AttritionRate KPI
+- Step 7 : Average Age KPI				
+- Step 8 : Average Salary KPI			
+- Step 9 : Average Years KPI			
+- Step 10 : Attrition By EducationField
+- Step 11 : Attrition By Age
+- Step 12 : Attrition By Salary Slab
+- Step 13 : Attrition By Years at Company
+- Step 14 : Attrition By Gender	
+- Step 15 : Attrition By Education Field vs Worklife balance on attrition count 
+- Step 16 : Attrition By Attrition on Age group vs Work life balance on Job Level 
+
+
+### Suggestions:
+
+1. People with Salary 5k and less than are resigning
+2. Work life balance needs to be there
+3. People are leaving job within a year within the age betweeen 26-35. They may have more workload. Get more resources with good packages
+4. Major attrition is happening for Job level 1
+4. New resources are required in lifescience education field
   
