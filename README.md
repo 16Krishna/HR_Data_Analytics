@@ -26,3 +26,18 @@ optimize performance management processes, and implement effective retention pro
 2. Highest attrition is happening on which department,EducationField? 
 3. Male/Female who is leaving more job?
 4. Job level of people who are leaving?
+
+## Hypothesis:
+
+1. To improve performance, salary hike, proper training is required
+2. Workload needs to reduced by hiring more employee for which specific dept has more attrition, may be employees are doing over-time
+3. Maried Female employees are leaving more job because of business travel
+4. Employee staying at higher distance are leaving job because the distance travel is taking much time
+
+### Steps followed 
+
+- Step 1 : Load data into Power BI Desktop, dataset is a csv file.
+- Step 2 : Under Home, there is transform data, the data was cleaned such as the blank columns was removed, under BusinessTravel section the spelling was corrected for Travel_Rarely
+- Step 3 : Then apply and close
+- Step 4 : Employee Count KPI
+  
